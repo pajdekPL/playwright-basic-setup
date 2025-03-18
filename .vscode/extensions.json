@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "ms-playwright.playwright",
+    "dbaeumer.vscode-eslint",
+    "pkief.material-icon-theme",
+    "streetsidesoftware.code-spell-checker"
+  ]
+}
