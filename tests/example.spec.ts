@@ -1,11 +1,12 @@
 import { expect, test } from '@playwright/test';
 
 test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+  page.goto('https://playwright.dev/');
   // Expect a title "to contain" a substring.
 });
 
 test('get started link', async ({ page }) => {
+  const someUnusedConst = "I'm not used";
   await page.goto('https://playwright.dev/');
 
   // Click the get started link.
