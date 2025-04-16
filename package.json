@@ -17,7 +17,10 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-playwright": "^2.2.0",
     "eslint-plugin-prettier": "^5.2.3",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.27.0"
   },
   "dependencies": {
     "tsconfig-paths": "^4.2.0",
