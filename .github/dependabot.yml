@@ -20,9 +20,3 @@ updates:
     labels:
       - "dependencies"
       - "automated"
-    ignore:
-      # Ignore major version updates for Playwright to avoid breaking changes
-      - dependency-name: "@playwright/test"
-        update-types: ["version-update:semver-major"]
-      - dependency-name: "playwright"
-        update-types: ["version-update:semver-major"]
