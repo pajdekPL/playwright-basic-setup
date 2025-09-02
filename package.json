@@ -27,7 +27,11 @@
   },
   "scripts": {
     "lint": "npx eslint",
+    "lint:fix": "npx eslint --fix",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check .",
     "test": "npx playwright test",
-    "test:ui": "npm run test -- --ui"
+    "test:ui": "npm run test -- --ui",
+    "test:example": "npx playwright test tests/01-goto-debug-breakpoint/goto-and-use-debug.spec.ts"
   }
 }
